@@ -1,0 +1,23 @@
+#Este archivo contiene secretos que nunca de suben 
+.env
+*.pem
+secretos.h
+
+#Entorno virtual de python
+venv/
+env/
+.venv/
+.env/
+
+#Archivos que jenera python
+__pycache__/
+*.pyc 
+
+#Editores y sistema operativo 
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+#Reportes que no se suben al programar (PDF, Exel)
+exportados/
